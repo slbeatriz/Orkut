@@ -126,3 +126,34 @@ li{
         display: none;
     }
 }
+
+@media (max-width: 767px){
+
+    .bloco_one{
+        display: none;
+    }
+
+    footer{
+       display: none;
+    }
+
+    .bloco_two, .bloco_three{
+        width: 320px;
+    }
+
+    #ajuste{
+        position: relative;
+        bottom: 18px;
+    }
+
+    #image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 329px;
+        padding: 10px;
+        border-radius: 20px;
+        position: relative;
+        right:10px;
+    }
+}
