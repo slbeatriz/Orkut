@@ -1,0 +1,128 @@
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D5DDF1;
+}
+
+span{
+    color: #DC309A;
+}
+
+p{
+    text-align: center;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-pai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco_one{
+    background-color: #ffffff;
+    margin-right: 10px;
+    padding: 50PX;
+    align-items: center;
+    text-align: center; 
+    height: 255px;
+    width: 650px;
+}
+.bloco_juntes{
+    padding-bottom: 3px;
+}
+
+.bloco_two{
+    background-color: #EBF0FC;
+    border: 5px solid #ffffff;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+    height: 199px;
+    width: 355px;  
+
+}
+
+.bloco_two a{
+    position: relative;
+    bottom: 20px;
+}
+
+#senha{
+    position:relative;
+    left: 2%;
+}
+
+.labelabe{
+    height: 60px;
+}
+
+.arrumar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 15px;
+    position: relative;
+    bottom: 5px;
+}
+
+.diferente{
+    display: block;
+    position: relative;
+    bottom: 10px;
+}
+
+.fe{
+    display: flex;
+    margin-left: 45px;
+    position: relative;
+    bottom: 25px;
+}
+
+.button{
+    height: 25px;
+    cursor: pointer;
+}
+
+.bloco_three{
+    background-color: #EBF0FC;
+    border: 5px solid #ffffff;
+    height: 91px;
+    width: 355px;
+    padding-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 0px;
+    position: fixed;
+    bottom: 130px;
+    width: 75.5%;
+    background-color: #BDCDEA;
+  }
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}  
+
+li{
+  list-style: none; 
+}
+
+
+@media (min-width:1024px){
+    #image{
+        display: none;
+    }
+}
